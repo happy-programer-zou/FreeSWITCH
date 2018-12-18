@@ -38,7 +38,7 @@
 #include <speex/speex_echo.h>
 
 struct switch_ivr_dmachine_binding {
-	char *digits;
+	char *digits;//电话按键
 	int32_t key;
 	switch_ivr_dmachine_callback_t callback;
 	switch_byte_t is_regex;
